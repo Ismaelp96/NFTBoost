@@ -18,6 +18,10 @@ module.exports = {
     extend: {
       maxWidth: {
         grid: "77.5rem",
+        "card-nft": "17.4rem",
+      },
+      height: {
+        "area-image-nft": "14.7",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
@@ -26,6 +30,8 @@ module.exports = {
       colors: {
         "blue-primary": "#1D4FFE",
         "green-primary": "#4BCE97",
+        "gray-border-card": "#131317",
+        "gray-area-favorite": "#05030a",
       },
       keyframes: {
         "accordion-down": {
