@@ -25,9 +25,19 @@ module.exports = {
         "logo-size-mb": "10rem",
         "nav-header": "48.3rem",
         "left-cont-footer": "20.25rem",
+        "content-desc-hero": "41.1rem",
+      },
+      width: {
+        "width-cards-mobile": "43.75rem",
+        "width-desk-card": "80rem",
+      },
+      backgroundImage: {
+        "hero-pattern": "url('../assets/bg-hero.svg')",
       },
       height: {
         "area-image-nft": "14.7",
+        "height-cards-mobile": "15.3rem",
+        "height-cards-desk": "26.6rem",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
