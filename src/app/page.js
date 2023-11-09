@@ -8,16 +8,7 @@ import { CardCollection } from "@/components/card-collectors";
 export default function Home() {
   return (
     <>
-      <section>
-        <ContainerGrid>
-          <CardCollection
-            image={ImageNFT01}
-            name="Lorem"
-            value_btc="0.721"
-            porcent="20"
-          />
-        </ContainerGrid>
-      </section>
+      <section></section>
     </>
   );
 }

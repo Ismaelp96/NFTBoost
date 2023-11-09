@@ -11,15 +11,19 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+    },
+    screens: {
+      "@tablet": "640px",
+      "@laptop": "1024px",
+      "@desktop": "1280px",
     },
     extend: {
       maxWidth: {
         grid: "77.5rem",
         "card-nft": "17.4rem",
         "card-collector": "37rem",
+        "logo-size-mb": "10rem",
+        "nav-header": "48.3rem",
       },
       height: {
         "area-image-nft": "14.7",
