@@ -24,6 +24,7 @@ module.exports = {
         "card-collector": "37rem",
         "logo-size-mb": "10rem",
         "nav-header": "48.3rem",
+        "left-cont-footer": "20.25rem",
       },
       height: {
         "area-image-nft": "14.7",
