@@ -48,6 +48,7 @@ module.exports = {
         "green-primary": "#4BCE97",
         "gray-border-card": "#131317",
         "gray-area-favorite": "#05030a",
+        "gray-button-carrousel": "#07050f",
       },
       keyframes: {
         "accordion-down": {
