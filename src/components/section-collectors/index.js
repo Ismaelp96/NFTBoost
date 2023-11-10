@@ -30,7 +30,7 @@ export function SectionCollectors() {
           subtitle="Colecionadores em Foco"
           title="Principais colecionadores"
         />
-        <div className="grid grid-cols-2 gap-x-8 gap-y-4">
+        <div className="grid grid-cols-1 @tablet:grid-cols-2 gap-x-4 @desktop:gap-x-8 gap-y-4">
           {collectors.map(({ image, name, percent, value_btc }, index) => (
             <CardCollection
               key={index}
