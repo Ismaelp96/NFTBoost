@@ -1,14 +1,13 @@
 import Image from "next/image";
 
 import IconVerify from "@/assets/verify.svg";
-import ImgNFT from "@/assets/img-neft/01.jpg";
 import IconETH from "@/assets/icon-eth.svg";
 
-export function CardCollection({ image, name, value_btc, porcent }) {
+export function CardCollection({ position, image, name, value_btc, porcent }) {
   return (
     <div className="bg-white bg-opacity-[0.01] py-4 px-6 flex items-center justify-between rounded-full border border-white border-opacity-5 w-full max-w-card-collector">
       <div className="flex items-center gap-6">
-        <strong className="font-semibold">1</strong>
+        <strong className="font-semibold">{position}</strong>
         <div className="flex items-center gap-4">
           <div className="w-10 h-10 relative">
             <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center border-2 border-white border-opacity-5">
@@ -37,7 +36,7 @@ export function CardCollection({ image, name, value_btc, porcent }) {
         </div>
       </div>
       <div className="space-y-1 text-right">
-        <strong className="text-green-primary font-bold">{porcent}%</strong>
+        <strong className="text-green-primary font-bold">+{porcent}%</strong>
         <span className="flex items-center gap-1 font-semibold text-sm">
           <Image src={IconETH} alt="icone ETH" /> {value_btc} BTC
         </span>

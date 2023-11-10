@@ -1,5 +1,6 @@
 import { SectionHero } from "@/components/section-hero";
 import { SectionCarrousel } from "@/components/section-carrousel";
+import { SectionCollectors } from "@/components/section-collectors";
 
 import Thumb01 from "@/assets/img-neft/01.jpg";
 import Thumb02 from "@/assets/img-neft/02.jpg";
@@ -104,6 +105,8 @@ export default function Home() {
         title="Coleções notáveis"
         data={featureCollections}
       />
+      <hr className="border-t border-white border-opacity-5 max-w-grid mx-auto" />
+      <SectionCollectors />
       <hr className="border-t border-white border-opacity-5 max-w-grid mx-auto" />
       <SectionCarrousel
         subtitle="Seleção Mensal"
