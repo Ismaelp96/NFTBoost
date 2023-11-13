@@ -14,6 +14,7 @@ import Thumb09 from "@/assets/img-neft/09.jpg";
 import Thumb10 from "@/assets/img-neft/10.jpg";
 import Thumb11 from "@/assets/img-neft/11.jpg";
 import Thumb12 from "@/assets/img-neft/12.jpg";
+import { SectionBanner } from "@/components/section-banner";
 
 const featureCollections = [
   {
@@ -119,6 +120,7 @@ export default function Home() {
         title="Tendências"
         data={featureCollections3}
       />
+      <SectionBanner />
     </>
   );
 }

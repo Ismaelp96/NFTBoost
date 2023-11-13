@@ -33,11 +33,13 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('../assets/bg-hero.svg')",
+        "bg-banner": "url('../assets/bg-banner.svg')",
       },
       height: {
         "area-image-nft": "14.7",
         "height-cards-mobile": "15.3rem",
         "height-cards-desk": "26.6rem",
+        "area-banner": "29.5rem",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
